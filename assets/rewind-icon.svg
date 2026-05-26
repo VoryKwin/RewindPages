@@ -1,0 +1,18 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="512" y1="0" x2="512" y2="860" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#10131B"/>
+      <stop offset="1" stop-color="#05060A"/>
+    </linearGradient>
+    <filter id="softShadow" x="120" y="80" width="800" height="900" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
+  <g filter="url(#softShadow)">
+    <path d="M210 218.359C210 179.206 244.499 151.568 286.391 160.78L511.869 211.45C551.296 220.662 579.635 248.3 579.635 287.453V685.898C579.635 727.354 541.439 753.84 499.547 741.173L281.463 677.837C238.339 665.169 210 631.774 210 589.165V218.359Z" fill="#FFB02E"/>
+    <path d="M455 462.038C454.992 424.616 482.599 395.993 522.217 387.179L746.719 338.7C788.738 329.886 824.762 356.294 824.771 395.917L824.854 774.544C824.863 814.167 797.256 846.092 755.238 858.209L539.143 918.793C497.125 930.909 455.098 904.503 455.089 863.778L455 462.038Z" fill="#668BEC"/>
+    <path d="M640 511.5C640 582.469 582.469 640 511.5 640C440.531 640 383 582.469 383 511.5C383 440.531 440.531 383 511.5 383C582.469 383 640 440.531 640 511.5Z" fill="#FFF7EB" fill-opacity="0.96"/>
+    <path d="M748 116C763.055 175.764 776.436 188.345 840 202.5C776.436 216.655 763.055 229.236 748 289C732.945 229.236 719.564 216.655 656 202.5C719.564 188.345 732.945 175.764 748 116Z" fill="#FFB02E"/>
+  </g>
+</svg>
